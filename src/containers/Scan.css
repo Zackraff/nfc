@@ -1,0 +1,58 @@
+/* Scan.css */
+
+/* Style for the main scan container */
+.scan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for serial number and message */
+.scan-container p {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Scanner component container */
+.scanner {
+    padding: 20px;
+    text-align: center;
+    border: 2px dashed #999;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.scanner:hover {
+    border-color: #666;
+    background-color: #f0f0f0;
+}
+
+/* Status text inside Scanner component */
+.scanner p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Additional styling for visual feedback */
+.scan-success {
+    color: #4caf50;
+}
+
+.scan-failure {
+    color: #f44336;
+}
